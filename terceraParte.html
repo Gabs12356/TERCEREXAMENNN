@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OPERACIONES</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<section class="home">
+   <div class="in-flex"> </div>
+    <div class="in-flex">
+   
+
+    <nav class="menu2">
+	<ul>
+		<li><a href="terceraParte.html">INTEGRALES</a></li>
+    <li><a href="raices.html">RAICES</a></li>
+        <li><a href="ecuacionesDiderenciales.html">EC. DIFERENCIALES</a></li>
+   
+	</ul>
+</nav>
+
+<section>	
+
+	<style type="text/css" media="screen">
+		 body{
+            background: linear-gradient(to right, #ff33cc 0%, #cc99ff 100%);
+        }
+     
+
+a {
+  color: #f42555;
+  text-decoration: underline;
+
+
+}
+
+a:hover {
+  text-decoration: none;
+}
+#menu{
+  padding: 10px 20px;
+}
+#menu li{
+  display: inline-block;
+  list-style: none;
+  padding: 30px;
+}
+.menu2{
+  overflow: hidden;
+  background-color: #333;
+  
+}
+.menu2 li{
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+  font: bold 14px vernada, sans-serif;
+  
+}
+.menu2 a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration:  none;
+  font-size: 14px;
+}
+.menu2 a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+.menu2{
+  background-color: #cc3399;
+  color: white;
+  
+}
+        form{
+        	text-align: center;
+            color: #00ffff;
+            font-size: 25px;
+            background: #000000;
+
+        }
+        .enlaces{
+        	text-align: center;
+            color: #00ffff;
+            font-size: 25px;
+            background: #000000;
+
+        }
+        h4{
+        	text-align: center;
+            color: #8ad3d6;
+            font-size: 52px;
+        }
+     
+     .calculos{
+     	color: #ffccff;
+
+     }
+       h2{
+          text-align: center;
+          color: #831a6c;
+          font-size: 55px;
+     }
+     input{
+     	color: #6600cc;
+     }
+     button[type=button]{
+     	background: linear-gradient(to bottom, #cc6699 0%, #ccccff 100%);
+     	
+     }
+     button[type=button]{
+     	
+     	font-size: 25px;
+
+     }
+     .result{
+     	color: #ffccff;
+     }
+     input[type=reset]{
+     	background: linear-gradient(to bottom, #ff99cc 0%, #9933ff 100%);
+     	font-size: 25px;
+     } 
+     input[type=number]{
+     	background: #ffccff;
+     	width:150px ; 
+     	height:65px;
+     	font-size: 25px;
+     }
+     
+	</style>
+
+</head>
+<body>
+	<h1></h1>
+<section class="calculos">
+	<form> 
+        
+		
+		<article>
+            <h4 id="subtitulo">PROBLEMAS A RESOLVER:</h4>
+            <p>Los siguientes problemas se tienen que resolver con sus respectivas ecuacion de integracion o buscar, de todas formas hay que hacer
+              un calculo con los tres metodos que que estan propuestos mas adelante, se puede observar que cada imagen tiene su definicion.
+            </p>
+        <img src="INTEGRALES 1.png"  class="center"width="820" height="300">
+        <p>Un puente es una construcción que permite salvar un accidente geográfico como un río, un cañón,
+           un valle o un cuerpo de agua, o cualquier otro obstáculo físico, como una carretera, un camino, una vía férrea. 
+           El diseño de cada puente varía dependiendo de su función y de la naturaleza del terreno sobre el que se construye. 
+          </p>
+        <img src="INTEGRALES 2.png"  class="center"width="820" height="300">
+        <p>El Arco Gateway, o la Puerta hacia el Oeste, es la parte más importante del Monumento a la Expansión Nacional
+           de Jefferson en San Luis, Misuri. Se construyó como un monumento conmemorativo de la expansión hacia el oeste 
+           de los Estados Unidos. Cuenta con 200 metros de altura máxima, lo que lo convierte en el monumento más alto hecho
+            por el hombre en los Estados Unidos, en el edificio accesible más alto del estado de Misuri y también en la mayor
+             estructura arquitectónica con forma de arco catenario aplastado.</p>
+        <img src="INTEGRALES 3.png"  class="center"width="820" height="300">
+        <p>Un lago (del latín: lacus) es un cuerpo de agua generalmente dulce, que se encuentra separado del mar. El aporte
+          de agua a todos los lagos viene de los ríos, esteros, de aguas freáticas y precipitación sobre el espejo del agua. 
+          Los lagos se forman en depresiones topográficas creadas por una variedad de procesos geológicos como movimientos 
+          tectónicos, movimientos de masa, vulcanismo, formación de barras, acción de glaciares e incluso impactos de meteoritos.
+         También existen lagos creados artificialmente por la construcción de una presa. Los grandes lagos que no tienen salida 
+         al mar son llamados también «mares cerrados», como el mar Caspio, que en realidad es una laguna, pero la regla no es clara
+          pues se habla del mar Muerto y del Gran Lago Salado. </p>
+            <h2 id="subtitulo">TRAPECIO</h2>
+           
+                
+                
+        
+                <p>LAGO </p>
+                <img src="LAGOOOO.png"  class="center"width="820" height="300">
+                <script  type="text/javascript" >
+        
+                 
+                      
+                      var xk= 300+ 380+ 340+ 230+ 240+ 320+ 375+ 345	;		
+
+                      var x0=0+ 110;
+                      var H=100;
+                      
+                  
+                     
+                      var DR1=(H/2)*(x0+2*xk);
+                      
+                     
+                    
+                      document.write("<div class=calculos> Trapecio del Lago :  "+DR1+" </div>")
+                      
+                  </script>
+                <p> PUENTE</p>
+                <img src="PUENTEEEE.png"  class="center"width="820" height="300">
+                <script  type="text/javascript" >
+        
+                
+                     var y=0;
+                     var rt=(1 + (1296/(80**4)) ** (y**2))**(1/2);
+                      var p=1+1+1+1+1;
+                      var H=13.33333;
+                      
+                      var DR11=(H/2)*(rt+1+2*p);
+                      
+                     
+                    
+                      document.write("<div class=calculos> Trapecio del puente :  "+DR11+" </div>")
+           
+                  </script>
+                <p> ARCO GATEWAY</p>
+                <img src="ARCOGATEWAYYYYY.png"  class="center"width="820" height="300">
+                <script  type="text/javascript" >
+        
+                      var ty=-299.25
+                       var x0=(1 + (-((688 * Math.sinh((10 * ty)/997))/997))**2)**(1/2);
+                      var H=99.75;
+                      var hh=2.697590957+1.287843587+1+1.287843587+2.697590957;
+
+                      var DRv1=(H/2)*(x0+x0+2*hh);
+                      
+                     
+                    
+                      document.write("<div class=calculos> Trapecio de Arco gateway :  "+DRv1+" </div>")
+                 
+                  </script>
+        
+        </article>	
+	</form>
+</section>
+<section class="calculos">
+	<form>
+		<article>
+            <h2 id="subtitulo">SIMPSON 1/3</h2>
+            
+            
+               
+        
+                <p> </p>
+                <p>LAGO </p>
+                <img src="LAGOOOO.png"  class="center"width="820" height="300">
+                <script  type="text/javascript" >
+        
+                 
+                      
+                      		
+
+                      var x0=0+ 110;
+                      var H=100;
+                      
+                  
+                     
+                      var DR1=(H/3)*(x0+2*(380+230+320+345)+4*(300+340+240+375));
+                      
+                     
+                    
+                      document.write("<div class=calculos> Simpson 1/3 del Lago :  "+DR1+" </div>")
+                  </script>
+                <p>PUENTE </p>
+                <img src="PUENTEEEE.png"  class="center"width="820" height="300">
+                <script  type="text/javascript" >
+
+                       var x0=1.41421356+1;
+                      var H=13.33333;
+                      
+                  
+                     
+                      var DRC1=(H/3)*(x0+2*(1+1)+4*(1+1+1));
+                      
+                     
+                    
+                      document.write("<div class=calculos> Simpson 1/3 del puente :  "+DRC1+" </div>")
+           
+                  </script>
+                <p>ARCO GATEWAY </p>
+                <img src="ARCOGATEWAYYYYY.png"  class="center"width="820" height="300">
+                <script  type="text/javascript" >
+        
+                  
+                  var x0=6.99534241+6.99534241;
+                      var H=99.75;
+                      
+                  
+                     
+                      var DRX1=(H/3)*(x0+2*(1.28784359+1.28784359)+4*(1+2.69759096+2.69759096));
+                      
+                     
+                    
+                      document.write("<div class=calculos> Simpson 1/3 del arco gateway :  "+DRX1+" </div>")
+                 
+                  </script>
+        </article>	
+	</form>
+</section>
+<section class="calculos">
+	<form>
+		<article>
+            <h2 id="subtitulo">SIMPSON 3/8</h2>
+            
+            
+                
+        
+                <p> </p>
+                <p>LAGO </p>
+                <img src="LAGOOOO.png"  class="center"width="820" height="300">
+                <script  type="text/javascript" >
+        
+                 
+                     var xC0=0+110;
+                      var H=100;
+                      
+                  
+                     
+                      var DP1=(3*H)*(xC0+2*(340+320)+3*(300+380+230+240+375+345));
+                      
+                     
+                    
+                      document.write("<div class=calculos> Simpson 3/8 del lago :  "+DP1+" </div>")
+                    
+                  </script>
+                <p>PUENTE</p>
+                <img src="PUENTEEEE.png"  class="center"width="820" height="300">
+                <script  type="text/javascript" >
+        
+                  
+                   var WWEW=1.41421356+1;
+                      var H=13.33333;
+                      
+                  
+                     
+                      var DRX1=(H/3)*(WWEW+2*(1)+3*(1+1+1+1));
+                      
+                     
+                    
+                      document.write("<div class=calculos>  Simpson 3/8 del puente :  "+DRX1+" </div>")
+           
+                  </script>
+                <p>ARCO GATEWAY  </p>
+                <img src="ARCOGATEWAYYYYY.png"  class="center"width="820" height="300">
+                <script  type="text/javascript" >
+        
+                  
+                   var swe=6.99534241+6.99534241;
+                      var H=99.75;
+                      
+                  
+                     
+                      var DRX1=(H/3)*(swe+2*(1)+3*(1.28784359+1.28784359+2.69759096+2.69759096));
+                      
+                     
+                    
+                      document.write("<div class=calculos>  Simpson 3/8 del arco gateway :  "+DRX1+" </div>")
+                 
+                  </script>
+        </article>	
+	</form>
+</section>
+
+<footer>
+  <h4>ME PUEDES CONTACTAR POR:</h4>
+  <div class="enlaces">
+    <a title="facebook" href="https://www.facebook.com/"><img src="facebook.jpg" alt="facebook" width="40" height="40"/></a>
+    <a title="twitter" href="https://www.twitter.com/"><img src="twitter.png" alt="twitter" width="40" height="40"/></a>
+    <a title="instagram" href="https://www.instagram.com/"><img src="instagram.jpg" alt="instagram" width="40" height="40"/></a>
+    <p> Gabriela<br> 
+      Ludeño Calla <br>
+        </p>
+
+  
+  </footer>
+</body>
+</html>
